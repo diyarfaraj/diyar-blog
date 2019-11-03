@@ -5,6 +5,7 @@
   top: 0;
   display: flex;
   flex-direction: column;
+  display: none;
 }
 
 .head-elements {
@@ -18,7 +19,6 @@
   flex-direction: row;
   justify-content: space-around;
 }
-
 
 .bottom-bar {
   width: 100%;
@@ -38,7 +38,7 @@
 }
 
 small {
-    font-family: "Raleway";
+  font-family: "Raleway";
 }
 
 .mobile-bio-main {
@@ -46,13 +46,20 @@ small {
   display: none;
 }
 
-
-
 @media only screen and (max-width: 850px) {
-  .bottom-bar{display: flex;}
-  .social-links{display: none;}
-  .mobile-pages-main{display: block;}
-  .mobile-bio-main{
+  .head-main {
+    display: block;
+  }
+  .bottom-bar {
+    display: flex;
+  }
+  .social-links {
+    display: none;
+  }
+  .mobile-pages-main {
+    display: block;
+  }
+  .mobile-bio-main {
     display: flex;
     flex-direction: row;
     justify-content: space-between;

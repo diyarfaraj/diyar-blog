@@ -1,4 +1,4 @@
-'use strict'
+"use strict"
 
 const siteConfig = require("./config")
 
@@ -7,7 +7,7 @@ module.exports = {
     url: siteConfig.url,
     title: siteConfig.title,
     tagline: siteConfig.tagline,
-    description: `A blog template for web developers that's ready to go out of the box. Feel free to modify it to your liking.`,
+    description: `Diyar Faraj's Blog. ABout coding and much more...`,
     author: siteConfig.author.name,
     contacts: {
       linkedin: siteConfig.author.contacts.linkedin,
@@ -46,8 +46,9 @@ module.exports = {
               aliases: {},
               showLineNumbers: false,
               noInlineHighlight: false,
-            }
-          }, `gatsby-remark-responsive-iframe`,
+            },
+          },
+          `gatsby-remark-responsive-iframe`,
         ],
       },
     },
@@ -55,10 +56,10 @@ module.exports = {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
         fonts: [
-          `Raleway`,
-          `source sans pro\:300,400,400i,700` // you can also specify font weights and styles
-        ]
-      }
+          `PT Serif`,
+          `source sans pro\:300,400,400i,700`, // you can also specify font weights and styles
+        ],
+      },
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,

@@ -1,11 +1,21 @@
 h4 {
-    font-family: "Raleway";
+  font-family: "Raleway";
+}
+
+button {
+  box-shadow: none;
 }
 
 .tech-tag {
-    background: black;
-    border-radius: 0%;
-    border-color: black;
-    font-family: "Raleway";
-    font-size: .85rem;
+  background: transparent;
+  border-radius: 0%;
+  border-color: white;
+  font-family: "Raleway";
+  font-size: 0.65rem;
+  box-shadow: none;
+  border-style: none;
+}
+
+.tech-tag p {
+  color: black;
 }
