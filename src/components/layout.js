@@ -52,21 +52,17 @@ const Layout = ({ children }) => {
 							<hr />
 							<p className="d-inline">
 								© {new Date().getFullYear()}{' '}
-								<a className="text-info" href="https://willjw3.github.io/">
-									willjw3
+								<a
+									className="text-info"
+									href="https://diyarfaraj.com"
+									target="_blank"
+									rel="noopener noreferrer"
+								>
+									Diyar Faraj
 								</a>
 								, All Rights Reserved.
 							</p>
-							<p className="mt-5 text-muted d-inline">
-								<i>
-									{' '}
-									Built with
-									{` `}
-									<a className="text-info" href="https://www.gatsbyjs.org">
-										Gatsby
-									</a>
-								</i>
-							</p>
+							<p className="mt-5 text-muted d-inline" />
 						</footer>
 					</div>
 				</div>
