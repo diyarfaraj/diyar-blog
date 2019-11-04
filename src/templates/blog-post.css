@@ -21,6 +21,18 @@
 }
 
 
+@media only screen and (min-width: 1280px) {
+  .post-main {
+    padding-right: 790px;
+    margin-left: -210px;
+  }
+
+  .sidebar {
+    width: 70% !important;
+    margin-top: 40px;
+  }
+}
+
 
 
 
@@ -58,8 +70,7 @@
   }
 
   .post-main {
-    padding-right: 0px;
-    margin-left: -0px;
+    padding: 0 60px;
     margin-top: 20px;
   }
 
@@ -72,7 +83,7 @@
 
 @media only screen and (max-width: 376px) {
   .post-list-main {
-    padding-right: 0px;
-    margin-left: 0px;
+    padding: 0 30px !important;
+
   }
 }
