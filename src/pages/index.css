@@ -17,6 +17,19 @@ p,
   width: 90%;
 }
 
+hr {
+  margin-top: 9px !important;
+  margin-bottom: 0 !important;
+}
+
+.post-date i {
+  color: black !important;
+  font-size: 0.65rem !important;
+  font-style: normal !important;
+  margin-top: -10px !important;
+
+}
+
 @media only screen and (max-width: 1280px) {
   .post-list-main {
     padding-right: 270px;
