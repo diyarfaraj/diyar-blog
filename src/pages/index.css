@@ -1,52 +1,53 @@
 p,
 .title {
-	font-family: "Serif";
+  font-family: "PT Serif";
 }
 
 .index-main {
-	display: grid;
-	grid-template-columns: 1fr 2fr;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
 }
 
 .post-list-main {
-	padding-right: 490px;
-	margin-left: -120px;
+  padding-right: 490px;
+  margin-left: -120px;
 }
 
 .sidebar {
-	width: 90%;
+  width: 90%;
 }
 
 @media only screen and (max-width: 1280px) {
-	.post-list-main {
-		padding-right: 270px;
-		margin-left: -70px;
-	}
+  .post-list-main {
+    padding-right: 270px;
+    margin-left: -70px;
+  }
 
-	.sidebar {
-		width: 85% !important;
-	}
+  .sidebar {
+    width: 85% !important;
+  }
 }
 
 @media only screen and (max-width: 769px) {
-	.post-list-main {
-		padding: 0 70px;
-		margin-left: 0px;
-	}
+  .post-list-main {
+    padding: 0 70px;
+    margin-left: 0px;
+  }
 
-	.sidebar {
-		display: none;
-	}
-	.index-main {
-		display: flex;
-		flex-direction: row;
-		justify-content: space-around;
-	}
+  .sidebar {
+    display: none;
+  }
+
+  .index-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
 }
 
 @media only screen and (max-width: 376px) {
-	.post-list-main {
-		padding: 0px !important;
-		margin-left: 0px;
-	}
+  .post-list-main {
+    padding: 0px !important;
+    margin-left: 0px;
+  }
 }

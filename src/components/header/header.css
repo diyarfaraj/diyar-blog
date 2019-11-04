@@ -27,18 +27,20 @@
   flex-direction: row;
   justify-content: space-around;
 }
+
 .mobile-pages-main {
   width: 100%;
   background: white;
   display: none;
 }
+
 .head-logo {
-  font-family: "Raleway";
+  font-family: "PT Serif";
   font-size: 1.75rem;
 }
 
 small {
-  font-family: "Raleway";
+  font-family: "PT Serif";
 }
 
 .mobile-bio-main {
@@ -50,15 +52,19 @@ small {
   .head-main {
     display: block;
   }
+
   .bottom-bar {
     display: flex;
   }
+
   .social-links {
     display: none;
   }
+
   .mobile-pages-main {
     display: block;
   }
+
   .mobile-bio-main {
     display: flex;
     flex-direction: row;
