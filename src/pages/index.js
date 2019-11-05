@@ -76,11 +76,11 @@ const IndexPage = ({ data }) => {
 							</div>
 						);
 					})}
-					<div className="mt-4 text-center">
+					{/* <div className="mt-4 text-center">
 						<Link to={nextPage} rel="next" style={{ textDecoration: `none` }}>
 							<span className="text-dark">Next Page →</span>
 						</Link>
-					</div>
+					</div> */}
 				</div>
 			</div>
 		</Layout>
@@ -103,7 +103,7 @@ export const pageQuery = graphql`
 			}
 		}
 		allMarkdownRemark(
-			limit: 10
+			limit: 100
 			sort: { fields: [frontmatter___date], order: DESC }
 			filter: { frontmatter: { published: { eq: true } } }
 		) {
