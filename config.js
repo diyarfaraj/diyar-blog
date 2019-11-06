@@ -3,7 +3,7 @@
 module.exports = {
 	url: 'https://developer-diary.netlify.com',
 	title: "Diyar Faraj's Blog",
-	tagline: 'Developer who likes to build stuff.',
+	tagline: 'Developer, Programmer',
 	copyright: '© 2019 Diyar Faraj, All rights reserved',
 	author: {
 		name: 'Diyar Faraj',
@@ -106,6 +106,13 @@ module.exports = {
 			name: 'DiVisualstudio',
 			size: 20,
 			color: 'deepskyblue'
+		},
+		{
+			tag: 'other',
+			tech: 'Other',
+			name: 'Other',
+			size: 20,
+			color: 'black'
 		}
 	]
 };

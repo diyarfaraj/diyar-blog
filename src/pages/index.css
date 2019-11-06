@@ -9,12 +9,12 @@ p,
 }
 
 .post-list-main {
-  padding-right: 490px;
-  margin-left: -120px;
+  padding-right: 790px;
+  margin-left: -220px;
 }
 
 .sidebar {
-  width: 90%;
+  width: 80%;
 }
 
 hr {
@@ -32,8 +32,8 @@ hr {
 
 @media only screen and (max-width: 1280px) {
   .post-list-main {
-    padding-right: 270px;
-    margin-left: -70px;
+    padding-right: 370px;
+    margin-left: -120px;
   }
 
   .sidebar {
@@ -58,7 +58,7 @@ hr {
   }
 }
 
-@media only screen and (max-width: 376px) {
+@media only screen and (max-width: 576px) {
   .post-list-main {
     padding: 0px !important;
     margin-left: 0px;

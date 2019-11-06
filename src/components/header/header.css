@@ -1,4 +1,5 @@
 .head-main {
+
   width: 100%;
   position: sticky;
   z-index: 1;
@@ -9,7 +10,8 @@
 }
 
 .head-elements {
-  display: flex;
+  /* display: flex; */
+  display: none;
   flex-direction: row;
   justify-content: space-between;
 }
@@ -51,10 +53,12 @@ small {
 @media only screen and (max-width: 850px) {
   .head-main {
     display: block;
+
   }
 
   .bottom-bar {
-    display: flex;
+    /* display: flex; */
+    display: none;
   }
 
   .social-links {
@@ -62,12 +66,24 @@ small {
   }
 
   .mobile-pages-main {
-    display: block;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 2px 2px #bababa;
+    margin-top: -15px;
+    padding-bottom: 5px;
+
   }
+
+  .nav-item-middle {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+
 
   .mobile-bio-main {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+
   }
 }

@@ -11,8 +11,8 @@ import Sidebar from '../components/sidebar/Sidebar';
 const IndexPage = ({ data }) => {
 	const posts = data.allMarkdownRemark.edges;
 	/* const labels = data.site.siteMetadata.labels; */
-	const currentPage = 1;
-	const nextPage = (currentPage + 1).toString();
+	/* const currentPage = 1; */
+	/* 	const nextPage = (currentPage + 1).toString(); */
 
 	/* const getTechTags = (tags) => {
 		const techTags = [];
