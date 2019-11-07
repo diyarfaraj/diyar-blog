@@ -1,34 +1,52 @@
-import React from 'react';
-import Layout from '../components/layout';
-import SEO from '../components/seo';
+import React from "react"
+import Layout from "../components/layout"
+import SEO from "../components/seo"
 /* import { FaCheckCircle } from 'react-icons/fa'; */
-import './index.css';
+import "./index.css"
 
-import Sidebar from '../components/sidebar/Sidebar';
+import Sidebar from "../components/sidebar/Sidebar"
 /* import TechTag from '../components/tags/TechTag'; */
 
-const AboutPage = (props) => {
-	return (
-		<Layout>
-			<SEO title="About" />
-			<div className="post-page-main">
-				<div className="sidebar px-4 py-2">
-					<Sidebar />
-				</div>
+const AboutPage = props => {
+  return (
+    <Layout>
+      <SEO title="About" />
+      <div className="post-page-main">
+        <div className="sidebar px-4 py-2">
+          <Sidebar />
+        </div>
 
-				<div className="post-main">
-					<SEO title="About" />
-					<div className="mt-3">
-						<h2 className="heading">About</h2>
-						<p>
-							<i>
-								Hey! I am a developer focusing on creating amazing web experiences. The purpose of this
-								blog is just for fun. Main subject will be about programming and development, but also a
-								bit about my other interests like books, movies and podcast.
-							</i>
-						</p>
-						<br />
-						{/* <h4>Features</h4>
+        <div className="post-main">
+          <SEO title="About" />
+          <div className="mt-3">
+            <h2 className="heading">About</h2>
+            <p>
+              <i>
+                Hey! I am a developer focusing on creating amazing web
+                experiences. The purpose of this blog is just for fun. Main
+                subject will be about programming and development, but also a
+                bit about my other interests like{" "}
+                <a
+                  href="https://www.goodreads.com/review/list/103563733-diyar-faraj?sort=rating"
+                  target="_blank"
+                >
+                  books,{" "}
+                </a>
+                <a
+                  href="https://www.imdb.com/user/ur27511389/ratings?sort=your_rating,desc&ratingFilter=0&mode=detail&ref_=undefined&lastPosition=0"
+                  target="_blank"
+                >
+                  movies
+                </a>{" "}
+                and{" "}
+                <a href="https://castbox.fm/ve/86273" target="_blank">
+                  podcasts
+                </a>
+                .
+              </i>
+            </p>
+            <br />
+            {/* <h4>Features</h4>
 						<div>
 							<span className="text-success d-inline-block" title="blazing">
 								<FaCheckCircle size={26} style={{ color: 'success' }} />
@@ -78,11 +96,11 @@ const AboutPage = (props) => {
 							</span>
 							<p className="d-inline-block ml-3 w-75 align-top">Mobile responsive, of course</p>
 						</div> */}
-					</div>
-				</div>
-			</div>
-		</Layout>
-	);
-};
+          </div>
+        </div>
+      </div>
+    </Layout>
+  )
+}
 
-export default AboutPage;
+export default AboutPage

@@ -1,14 +1,13 @@
 .post-page-main {
   display: grid;
   grid-template-columns: 1fr 2fr;
-
-
 }
 
 .post-main {
   padding-right: 380px;
   margin-left: -50px;
   margin-top: 50px;
+  line-height: 1.6;
 }
 
 .heading {
@@ -25,13 +24,12 @@
   font-size: 0.65rem !important;
   font-style: normal !important;
   margin-top: -10px !important;
-
 }
 
 @media only screen and (min-width: 1280px) {
   .post-main {
-    padding-right: 790px;
-    margin-left: -210px;
+    padding-right: 590px;
+    margin-left: -200px;
   }
 
   .sidebar {
@@ -39,9 +37,6 @@
     margin-top: 40px;
   }
 }
-
-
-
 
 @media only screen and (max-width: 1280px) {
   .post-main {
@@ -55,14 +50,11 @@
   }
 }
 
-
-
 @media only screen and (max-width: 1024px) {
   .post-main {
     padding-right: 240px;
 
     margin-left: -50px;
-
   }
 
   .sidebar {
@@ -91,6 +83,5 @@
 @media only screen and (max-width: 376px) {
   .post-list-main {
     padding: 0 30px !important;
-
   }
 }
