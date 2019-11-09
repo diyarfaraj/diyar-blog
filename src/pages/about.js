@@ -29,17 +29,23 @@ const AboutPage = props => {
                 <a
                   href="https://www.goodreads.com/review/list/103563733-diyar-faraj?sort=rating"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   books,{" "}
                 </a>
                 <a
                   href="https://www.imdb.com/user/ur27511389/ratings?sort=your_rating,desc&ratingFilter=0&mode=detail&ref_=undefined&lastPosition=0"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   movies
                 </a>{" "}
                 and{" "}
-                <a href="https://castbox.fm/ve/86273" target="_blank">
+                <a
+                  href="https://castbox.fm/ve/86273"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   podcasts
                 </a>
                 .
