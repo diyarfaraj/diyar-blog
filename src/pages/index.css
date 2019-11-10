@@ -9,12 +9,12 @@ p,
 }
 
 .post-list-main {
-  padding-right: 590px;
-  margin-left: -200px;
+  padding-right: 550px;
+  margin-left: -150px;
 }
 
 .sidebar {
-  width: 80%;
+  width: 70% !important;
 }
 
 hr {
@@ -29,6 +29,17 @@ hr {
   margin-top: -10px !important;
 }
 
+@media only screen and (min-width: 2000px) {
+  .post-list-main {
+    padding-right: 1270px;
+    margin-left: -420px;
+  }
+
+  .sidebar {
+    width: 55% !important;
+  }
+}
+
 @media only screen and (max-width: 1280px) {
   .post-list-main {
     padding-right: 370px;
@@ -37,6 +48,17 @@ hr {
 
   .sidebar {
     width: 85% !important;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .post-list-main {
+    padding-right: 230px;
+    margin-left: -80px;
+  }
+
+  .sidebar {
+    width: 70% !important;
   }
 }
 

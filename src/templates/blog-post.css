@@ -4,8 +4,8 @@
 }
 
 .post-main {
-  padding-right: 380px;
-  margin-left: -50px;
+  padding-right: 500px;
+  margin-left: -70px;
   margin-top: 50px;
   line-height: 1.6;
 }
@@ -15,7 +15,7 @@
 }
 
 .sidebar {
-  width: 90%;
+  width: 100%;
   margin-top: 40px;
 }
 
@@ -26,26 +26,38 @@
   margin-top: -10px !important;
 }
 
-@media only screen and (min-width: 1280px) {
+@media only screen and (min-width: 2000px) {
   .post-main {
-    padding-right: 590px;
-    margin-left: -200px;
+    padding-right: 1270px;
+    margin-left: -420px;
   }
 
   .sidebar {
-    width: 70% !important;
+    width: 80%;
+    margin-top: 40px;
+  }
+}
+
+@media only screen and (max-width: 1440px) {
+  .post-main {
+    padding-right: 460px;
+    margin-left: -110px;
+  }
+
+  .sidebar {
+    width: 90% !important;
     margin-top: 40px;
   }
 }
 
 @media only screen and (max-width: 1280px) {
   .post-main {
-    padding-right: 260px;
-    margin-left: -50px;
+    padding-right: 460px;
+    margin-left: -100px;
   }
 
   .sidebar {
-    width: 0%;
+    width: 80%;
     margin-top: 40px;
   }
 }
@@ -58,7 +70,7 @@
   }
 
   .sidebar {
-    width: 80% !important;
+    width: 90%;
     margin-top: 40px;
   }
 }
@@ -69,7 +81,11 @@
   }
 
   .post-main {
-    padding: 0 60px;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-right: 125px;
+    padding-left: 120px;
+
     margin-top: 20px;
   }
 
@@ -80,8 +96,41 @@
   }
 }
 
+@media only screen and (max-width: 768px) {
+  .sidebar {
+    display: none;
+  }
+
+  .post-main {
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-right: 105px;
+    padding-left: 130px;
+
+    margin-top: 20px;
+  }
+
+  .post-page-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
+
+@media only screen and (max-width: 426px) {
+  .post-main {
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-right: 45px !important;
+    padding-left: 75px !important;
+
+    margin-top: 20px;
+  }
+}
+
 @media only screen and (max-width: 376px) {
-  .post-list-main {
-    padding: 0 30px !important;
+  .post-main {
+    padding: 0 10px !important;
+    margin: 10px 0px !important;
   }
 }
