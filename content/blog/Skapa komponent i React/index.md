@@ -24,3 +24,8 @@ class Greeting extends React.Component {
   }
 }
 ```
+
+###När ska man använda en klasskomponent kontra en funktionskomponent?
+Om komponenten behöver "state"- eller "lifecycle"-metoder ska man använda klasskomponenter annars gäller en funktionskomponent. 
+
+Men från och med React 16.8 som fick tillägg av Hooks kan du använda state, lifecycle och andra funktioner som endast fanns tillgängliga i klasskomponenten rätt i din funktionskomponent.
