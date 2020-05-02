@@ -1,31 +1,12 @@
 ---
-title: "Skapa komponent i React"
+title: "Pure Components"
 tags: ["react"]
 published: true
-date: "2019-12-29"
+date: "2020-01-03"
 ---
 
-Det finns två möjliga sätt att skapa en komponent.
+React.PureComponent är exakt samma som React.Component förutom att den hanterar metoden ``shouldComponentUpdate()`` för dig.
 
- - Funktionskomponenter: Detta är det enklaste sättet att skapa en komponent. Det är rena JavaScript-funktioner som accepterar props objekt som första parameter och returnera React element:
+När props eller state ändras kommer PureComponent att göra en ytlig jämförelse av både props och state. Komponent å andra sidan kommer inte att jämföra aktuella props och state till nästa ut ur leden. Således kommer komponenten att återges som standard när shouldComponentUpdate anropas.
   
-```javascript
-function Greeting({ name }) {
-  return <h1>{`Hello, ${name}`}</h1>
 
-}
-```
-
-- Klasskomponenter: Du kan också använda ES6-klasser för att definiera en komponent. Ovanstående funktionskomponent kan skrivas som
-```javascript
-class Greeting extends React.Component {
-  render() {
-    return <h1>{`Hello, ${this.props.name}`}</h1>
-  }
-}
-```
-
-###När ska man använda en klasskomponent kontra en funktionskomponent?
-Om komponenten behöver "state"- eller "lifecycle"-metoder ska man använda klasskomponenter annars gäller en funktionskomponent. 
-
-Men från och med React 16.8 som fick tillägg av Hooks kan du använda state, lifecycle och andra funktioner som endast fanns tillgängliga i klasskomponenten rätt i din funktionskomponent.
