@@ -6,9 +6,11 @@ import MobileSocialLinks from './MobileSocialLinks';
 import MobilePageLinks from './MobilePageLinks';
 import SocialLinks from './SocialLinks';
 import MobileBio from './MobileBio';
+import Darkmode from 'darkmode-js';
 import './header.css';
 
 const Header = ({ siteTitle, tagline, author, contacts }) => {
+	new Darkmode().showWidget();
 	return (
 		<header
 			className="head-main"
