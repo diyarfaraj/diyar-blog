@@ -33,7 +33,7 @@ const Tag = ({ pageContext, data }) => {
 
     return (
         <Layout>
-            <SEO title="Home" keywords={[`gatsby`, `javascript`, `react`, `web development`, `node.js`, `graphql`]} />
+            <SEO title="Home" keywords={[`gatsby`, `javascript`, `react`, `web development`, `node.js`, `graphql`, `csharp`]} />
             <div className="index-main">
                 <div className="sidebar px-4 py-2">
                     <Sidebar />

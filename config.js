@@ -4,7 +4,7 @@ module.exports = {
   url: "https://developer-diary.netlify.com",
   title: "Diyar Faraj's Blog",
   tagline: "Developer, Programmer",
-  copyright: "© 2019 Diyar Faraj, All rights reserved",
+  copyright: "© 2020 Diyar Faraj, All rights reserved",
   author: {
     name: "Diyar Faraj",
     bio: "Developer who likes to build stuff.",

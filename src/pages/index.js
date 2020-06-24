@@ -6,15 +6,15 @@ import './index.css';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 import Sidebar from '../components/sidebar/Sidebar';
-/* import TechTag from '../components/tags/TechTag'; */
+ import TechTag from '../components/tags/TechTag'; 
 
 const IndexPage = ({ data }) => {
 	const posts = data.allMarkdownRemark.edges;
-	/* const labels = data.site.siteMetadata.labels; */
-	/* const currentPage = 1; */
-	/* 	const nextPage = (currentPage + 1).toString(); */
+	 const labels = data.site.siteMetadata.labels; 
+	 const currentPage = 1;
+		const nextPage = (currentPage + 1).toString(); 
 
-	/* const getTechTags = (tags) => {
+	 const getTechTags = (tags) => {
 		const techTags = [];
 		tags.forEach((tag, i) => {
 			labels.forEach((label) => {
@@ -33,7 +33,7 @@ const IndexPage = ({ data }) => {
 			});
 		});
 		return techTags;
-	}; */
+	}; 
 
 	return (
 		<Layout>
@@ -48,6 +48,9 @@ const IndexPage = ({ data }) => {
 					`react`,
 					`web development`,
 					`blog`,
+					`csharp`,
+					`dotnet`,
+					`python`,
 					`graphql`
 				]}
 			/>
@@ -57,7 +60,7 @@ const IndexPage = ({ data }) => {
 				</div>
 				<div className="post-list-main">
 					{posts.map((post) => {
-						/* const tags = post.node.frontmatter.tags; */
+						 const tags = post.node.frontmatter.tags; 
 						return (
 							<div key={post.node.id} className="container mt-5">
 								<Link to={post.node.fields.slug} className="text-dark">
@@ -72,7 +75,7 @@ const IndexPage = ({ data }) => {
 								<small className="text-info post-date">
 									<i>Posted on {post.node.frontmatter.date}</i>
 								</small>
-								{/* <div className="d-block post-tags">{getTechTags(tags)}</div> */}
+								 <div className="d-block post-tags">{getTechTags(tags)}</div> 
 							</div>
 						);
 					})}
