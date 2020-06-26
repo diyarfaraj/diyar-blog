@@ -2,14 +2,17 @@ import React from 'react';
 import { Link } from 'gatsby';
 
 import './header.css';
-import diyar from '../../images/diyar-faraj.jpg';
+import diyarImg from '../../images/diyar-faraj.jpg';
+import Darkmode from 'darkmode-js';
 
 const MobileBio = (props) => {
+	new Darkmode().showWidget();
+
 	return (
 		<div className="mobile-bio-main">
 			<Link to="/">
 				<img
-					src={diyar}
+					src={diyarImg}
 					className="ml-4 mt-2"
 					style={{ maxWidth: `75px`, maxHeight: `75px`, borderRadius: `50%`, boxShadow: `1px 1px 3px` }}
 					alt="Diyar Faraj developer"

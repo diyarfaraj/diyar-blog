@@ -22,8 +22,12 @@ const AboutPage = props => {
             <h2 className="heading">About</h2>
             <p>
               <i>
-                Hey! I am a developer focusing on creating amazing web
-                experiences. The purpose of this blog is just for fun. Main
+                I’m a passionated developer with experience in analysis, design, development, testing, bug
+                management, documentation, and maintenance of web applications in e-commerce for B2C and B2B.<br/>
+                <br/>
+                Currently working as a frontend developer at an eCommerce company specialized in B2B. The main environment is .Net. <br/>
+                <br/>
+                I love working with C#/.Net, JavaScript and React. Main
                 subject will be about programming and development, but also a
                 bit about my other interests like{" "}
                 <a
